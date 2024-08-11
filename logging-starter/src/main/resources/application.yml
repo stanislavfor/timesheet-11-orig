@@ -1,0 +1,11 @@
+application:
+  logging:
+    enabled: true
+    level: DEBUG
+    printArgs: true
+
+  recover:
+    enabled: true
+    noRecoverFor:
+      - java.lang.NullPointerException
+      - java.lang.IllegalArgumentException
